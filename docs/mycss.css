@@ -1,0 +1,76 @@
+body {
+  background: rgb(132,10,96);
+  background: radial-gradient(circle, rgba(132,10,96,1) 0%, rgba(115,9,157,1) 60%, rgba(50,44,138,1) 100%);
+  display: column;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Varela Round', sans-serif;
+  padding-top: 30px;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 700px;
+  height: 225px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.infobox {
+  background-color: #f2f2fe;
+  color: #9871a7;
+  width: 475px;
+  height: fit-content;
+  align-self: center;
+  border-radius: 8px;
+  text-align: center;
+  padding: 5px;
+  margin-top: ;
+  border: 1px solid #f2f2fe;
+  box-shadow: 5px 10px 18px #aaaaaa;
+}
+
+.contactbox {
+  background-color: #f2f2fe;
+  color: #66124d;
+  width: fit-content;
+  border-radius: 8px;
+  text-align: center;
+  height: fit-content;
+  align-self: center;
+  padding: 5px;
+  border: 1px solid #f2f2fe;
+  padding: ;
+  margin-top: ;
+  box-shadow: 5px 10px 18px #aaaaaa;
+}
+
+img.profile {
+  width: 180px;
+  border-radius: 25px;
+  float: left;
+  padding: 0px 10px 0px 0px;
+}
+
+img.thumbnail
+{
+  width: 175px;
+  height: 175px;
+}
+
+.photos {
+  background-color: #ffffff;
+  margin-top: ;
+  width: 700px;
+  height: fit-content;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h3 {
+  text-transform: uppercase;
+  line-height: 10px;
+  color: #66124d;
+}
